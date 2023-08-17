@@ -5,8 +5,206 @@
     <title>HTML Academy: Глейси</title>
   </head>
   <body>
+    <header class="page-header">
+      <nav class="navigation">
+        <ul class="navigation-list">
+          <li class="navigation-item">
+            <a href="#">
+              <span class="visually-hidden">
+                Логотип
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="delivery.html">Доставка и оплата</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="about.html">О компании</a>
+          </li>
+        </ul>
+        <ul class="navigation-list navigation-user">
+          <li class="navigation-item">
+            <a class="navigation-phone" href="tel:+78005558628">+7 800 555-86-28</a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="#">
+              <span class="visually-hidden">
+                Поиск
+              </span>
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="delivery.html">
+                Вход
+            </a>
+          </li>
+          <li class="navigation-item">
+            <a class="navigation-link" href="trash.html">
+              2 товара
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main-index">
+      <section class="main-slider">
+        <h1>Нежный пломбир<br>
+        с клубничным джемом</h1><p>Натуральное мороженое из свежих сливок<br>
+        и молока с вкуснейшим клубничным джемом –<br>
+        это идеальный десерт для всей семьи.</p>
+        <button>Заказать</button>
+        <ul class="ice-cream-buttons">
+          <li>
+           <span class="visually-hidden">
+            Кнопка слайдера 1
+          </span>
+          </li>
+          <li>
+            <span class="visually-hidden">
+             Кнопка слайдера 2
+            </span>
+          </li>
+          <li>
+          <span class="visually-hidden">
+            Кнопка слайдера 3
+          </span>
+        </li>
+        </ul class="slider">
+        <img src="#" alt="Тут кружок на фото скорее всего в CSS, хз вопрос">
+        <img src="#" alt="Тут меняющееся фото мороженого, хз вопрос">
+        <ul class="slider-list">
+          <li class="slider-item">
+            <button class="button-prev">
+              <span class="visually-hidden">
+                Кнопка предыдущий слайд
+              </span>
+            </button>
+          </li>
+          <li class="slider-item">
+            <button class="button-next">
+              <span class="visually-hidden">
+                Кнопка следующий слайд
+              </span>
+            </button>
+          </li>
+        </ul>
+        <ul class="slider-url-list"> <--- Возможно здесь нужен Aside --->
+          <li class="slider-url-item slider-item-tg">
+            <a href="#" alt="Поделиться в Telegram">
+            </a>
+          </li>
+          <li class="slider-url-item slider-item-vk">
+            <a href="#" alt="Поделиться в Vkontakte">
+            </a>
+          </li>
+          <li class="slider-url-item slider-item-you">
+            <a href="#" alt="Поделиться в YouTube">
+            </a>
+          </li>
+        </ul>
+        <----- Куда-то здесь надо запихать две мороженки с заднего фона слайдера, подозреваю они рисуются в css и не подвижны, нужно больше бизнес логики---->
+      </section>
+      <section class="main-banners">
+         <h2>Заказывайте мороженое и получайте подарки!</h2>
+         <ul class="banner-list">
+           <li class="banner-item">
+             <div class="banner-left">
+              <h3>
+                Малинка даром!
+              </h3>
+              <p>
+                При покупке 2 кг любого фруктового мороженого добавим в ваш заказ банку малинового варенья бесплатно.
+              </p>
+              <a href="#" alt="Хочу подарок">Хочу подарок</a>
+              <img src="#" alt="Вафельный рожок переполненный свежей малиной">
+            </div>
+           </li>
+           <li class="banner-item">
+             <div class="banner-right">
+              <h3>
+                Маршмеллоу даром!
+              </h3>
+              <p>
+                При покупке 2 кг пломбира добавим в ваш заказ упаковку нежных зефирок совершенно бесплатно.              </p>
+              <a href="#" alt="Хочу подарок">Хочу подарок</a>
+              <img src="#" alt="Вафельный рожок переполненный воздушными маршмеллоу">
+            </div>
+           </li>
+         </ul>
+       </section>
+      <section class="main-types">
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS. Профессиональная вёрстка сайтов</a>».</p>
-<!--   Some small diff-->
+      </section>
+      <section class="main-about">
+
+      </section>
+      <section class="main-info">
+
+      </section>
+      <section class="main-delivery">
+
+      </section>
+      <section class="main-address">
+
+      </section>
+    </main>
+    <footer>
+      <ul class="slider-url-list">
+        <li class="slider-url-item slider-item-tg">
+          <a href="#" alt="Поделиться в Telegram"> <---- Тут ещё обернуть в strong или b---->
+          </a>
+        </li>
+        <li class="slider-url-item slider-item-vk">
+          <a href="#" alt="Поделиться в Vkontakte">
+          </a>
+        </li>
+        <li class="slider-url-item slider-item-you">
+          <a href="#" alt="Поделиться в YouTube">
+          </a>
+        </li>
+      </ul> <--- Не делаем свой класс?---->
+      <ul class="footer-link-list">
+        <li class="footer-link-item">
+          <a href="#">Для поставщиков
+            <span class="visually-hidden">
+              Для поставщиков
+            </span>
+          </a>
+        </li>
+        <li class="footer-link-item">
+          <a href="#">О производстве
+            <span class="visually-hidden">
+              О производстве
+            </span>
+          </a>
+        </li>
+        <li class="footer-link-item">
+          <a href="#">Наши документы
+            <span class="visually-hidden">
+              Наши документы
+            </span>
+          </a>
+        </li>
+        <li class="footer-link-item">
+          <a href="#">
+            <span class="visually-hidden">Экологические стандарты
+              Экологические стандарты
+            </span>
+          </a>
+        </li>
+      </ul>
+      <div class="who-creator">
+        <p>
+          Сделано в <a href="#">.html academy
+                      <span class="visually-hidden">
+                        .html academy
+                      </span>
+                    </a> (c) 2021
+        </p>
+      </div>
+    </footer>
   </body>
 </html>
